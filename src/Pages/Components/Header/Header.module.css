@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+width: 100%;
+}
+.containerTop{
+    width: 90%;
+    margin: auto;
+    height: 100px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin-top: 20px;
+    margin-left: 20px;
+    position: fixed;
+
+}
+.containerTop .logo{
+   
+    display: flex;
+    width: 30%;
+    margin: auto;
+}
+.containerTop nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+
+}
+.containerTop nav ul{
+   
+    display: flex;
+    justify-content: flex-end;
+    gap:15px;
+}
+.containerTop  nav ul li{
+ list-style: none;
+}
+.containerTop nav ul li a{
+    text-decoration: none;
+    color: black;
+  
+}

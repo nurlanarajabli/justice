@@ -1,0 +1,77 @@
+.one {
+  width: 100%;
+  height: 700px;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+
+  background-image: url('https://preview.colorlib.com/theme/justice/images/hero_bg.jpg.webp');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* background-attachment: fixed; */
+}
+.one .containerSection {
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+}
+.one .containerSection .write{
+    width: 40%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+ 
+ 
+    text-align: right;
+
+
+}
+.one .containerSection .write h1{
+font-size: 60px;
+font-family: "Rubik", sans-serif;
+font-family: "Rubik", sans-serif;
+font-weight: 500;
+font-style: normal;
+color: #B49C73;
+}
+.one .containerSection .write .colorfull{
+    font-size: 60px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color:black;
+}
+.one .containerSection .write p{
+    font-size: 20px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color:black;
+}
+.one .containerSection .write  .colorP{
+    font-size: 20px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color:#ECEEF2;
+}
+.one .containerSection .write .btn{
+    width: 35%;
+    height: 40px;
+    border-radius: 25px;
+    background-color:#BBA580 ;
+    border: 2px solid transparent;
+    color: white;
+    font-size: 11px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}

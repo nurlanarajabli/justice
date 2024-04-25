@@ -1,0 +1,44 @@
+.three{
+    width: 100%;
+    height: 600px;
+      background-color: #37373F;
+}
+.three .sec{
+    width: 100%;
+    display: flex;
+    align-items:center ;
+    justify-content: space-between;
+    margin: auto;
+    /* flex-direction: column; */
+  
+}
+.three .sec .years{
+    width: 50%;
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+
+}
+.three .sec .years .fiffty{
+  
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    color:#857660;
+    font-family: 'Rubik',sans-serif;
+    font-size:50px ;
+    font-weight:700 ;
+    font-style: normal;
+}
+.three .sec .years  .fiffty span{
+
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    color:black;
+    font-family: 'Rubik',sans-serif;
+    font-size:50px ;
+    font-weight:700 ;
+    font-style: normal;
+    margin: auto;
+}
